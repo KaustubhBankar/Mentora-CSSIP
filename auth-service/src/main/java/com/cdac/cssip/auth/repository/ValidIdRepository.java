@@ -1,0 +1,1 @@
+package com.cdac.cssip.auth.repository; import com.cdac.cssip.auth.entity.ValidId; import org.springframework.data.jpa.repository.JpaRepository; import java.util.Optional; public interface ValidIdRepository extends JpaRepository<ValidId,Long>{Optional<ValidId> findByCdacId(String id);}

@@ -1,0 +1,1 @@
+package com.cdac.cssip.meeting.repository;import com.cdac.cssip.meeting.entity.OnlineMeeting;import org.springframework.data.jpa.repository.JpaRepository;import java.util.*;public interface OnlineMeetingRepository extends JpaRepository<OnlineMeeting,Long>{List<OnlineMeeting> findByStaffIdOrderByScheduledAtDesc(Long staffId);}

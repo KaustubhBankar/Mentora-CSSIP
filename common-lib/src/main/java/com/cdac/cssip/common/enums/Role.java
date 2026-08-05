@@ -1,0 +1,1 @@
+package com.cdac.cssip.common.enums; public enum Role { ADMIN, STAFF, STUDENT }
